@@ -9,9 +9,11 @@ class Worker
     private $age;
     private $salary;
 
-    private function checkAge()
+    private function checkAge($age)
     {
-
+        if ($age > 1 & $age < 100){
+            $this->age =  $age;
+        }
     }
 
     public function setName($name)
@@ -26,7 +28,7 @@ class Worker
 
     public function setAge($age)
     {
-        return $this->age = $age;
+        $this->checkAge($age);
     }
 
     public function getAge()

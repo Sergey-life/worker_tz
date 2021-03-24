@@ -31,7 +31,7 @@ echo $workerOne->age + $workerTho->age;
 
 echo "<hr>";
 
-//Часть 2
+//Часть 2 и 3
 
 $workerOne = new Workers();
 
@@ -55,7 +55,6 @@ echo $workerOne->getAge() + $workerTho->getAge();
 
 echo "<hr>";
 
-//Часть 3
 
 
 
